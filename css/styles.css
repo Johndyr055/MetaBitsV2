@@ -68,11 +68,11 @@ img{
 }
 
 .home {
-  background-image: url("../images/iluminacion.png"),
-  url("../images/puntos.png"),
-  url("../images/logoMedio.png"),
-  url("../images/arcades.png"),
-  url("../images/fondo.png");
+  background-image: url("https://raw.githubusercontent.com/Johndyr055/MetaBitsV2/main/images/iluminacion.png"),
+  url("https://raw.githubusercontent.com/Johndyr055/MetaBitsV2/main/images/puntos.png"),
+  url("https://raw.githubusercontent.com/Johndyr055/MetaBitsV2/main/images/logoMedio.png"),
+  url("https://raw.githubusercontent.com/Johndyr055/MetaBitsV2/main/images/arcades.png"),
+  url("https://raw.githubusercontent.com/Johndyr055/MetaBitsV2/main/images/fondo.png");
   background-position: center, center, center, center, center;
   background-size: cover;
   animation-duration: 2s;
