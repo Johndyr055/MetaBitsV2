@@ -6,16 +6,18 @@
   <title>MetaBits</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="MBIT.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="topBar">
     <img id = "logoP" src="images/logoP.png" alt="">
-    <a class="topBarMI" target="_blank" href="">Inicio</a>
-    <a class="topBarMI" target="_blank" href="">Donaciones</a>
-    <a class="topBarMI" target="_blank" href="https://metabits.gitbook.io/metabits-lightpaper/">LigthPaper</a>
-    <a class="topBarMI" target="_blank" href="">RoadMap</a>
-    <a class="topBarMI" target="_blank" href="">Personajes</a>
-    <a class="topBarMI" target="_blank" href="">Equipo</a>
+    <a class="topBarMI" target="_self" href="#aHome">Inicio</a>
+    <a class="topBarMI" target="_self" href="#aRoadMap">RoadMap</a>
+    <a class="topBarMI" target="_self" href="#aCharacters">Personajes</a>
+    <a class="topBarMI" target="_self" href="#aTeam">Equipo</a>
+    <a class="buttonMI" target="_blank" href="https://metabits.gitbook.io/metabits-lightpaper/">LigthPaper</a>
   </div>
   <div class="social">
     <a class="socialIcon" target="_blank" href="https://twitter.com/MetaBitsOficial"><img id="s1" class = "socialImg" src="images/social1.png" alt=""></a>
@@ -25,20 +27,20 @@
     <a class="socialIcon" target="_blank" href="https://discord.gg/Y6sVr4YtQz"><img id="s5" class = "socialImg" src="images/social5.png" alt=""></a>
     <a class="socialIcon" target="_blank" href="https://instagram.com/metabitsoficial"><img id="s6" class = "socialImg" src="images/social6.png" alt=""></a>
   </div>
-  <div class="home">
+  <div id = "aHome" class="home">
 
   </div>
-  <div class="donations">
-    <p>EVENTO DE DONADORES</p>
+  <div id = "aDonations" class="divisiones">
+    <h1>EVENTO DE DONADORES</h1>
   </div>
-  <div class="roadMap">
-    <p>ROADMAP</p>
+  <div id = "aRoadMap" class="divisiones">
+    <h1>ROADMAP</h1>
   </div>
-  <div class="characters">
-    <p>PERSONAJES</p>
+  <div id = "aCharacters" class="divisiones">
+    <h1>PERSONAJES</h1>
   </div>
-  <div class="team">
-    <p>EQUIPO</p>
+  <div id = "aTeam" class="divisiones">
+    <h1>EQUIPO</h1>
   </div>
 
   <script src="js/index.js"></script>
