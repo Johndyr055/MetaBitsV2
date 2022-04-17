@@ -46,9 +46,14 @@ s6.onmouseout = function(){
   this.src = "images/social6.png";
 };
 
+const reescalar = function(){
+  document.body.style.width = window.innerWidth + 'px';
+  document.body.style.height = (window.innerHeight * 5) + 'px';
+}
 
+reescalar();
 
 /** EVENT LISTENERS ***/
 window.addEventListener('resize', () => {
-  reset();
+  reescalar();
 });

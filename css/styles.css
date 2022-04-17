@@ -2,31 +2,29 @@
   font-family: 'Press Start 2P', cursive;
   font-weight: normal;
   font-style: normal;
+  color: white;
   margin: 0;
   padding: 0;
 }
 
 a{
-  font-size: 17px;
+  font-size: 20px;
   text-decoration: none;
-  background: -webkit-linear-gradient(45deg, #ffef00, #ff3d3c, #5446e6 80%);
+  display: inline-block;
+  /*background: white; /*-webkit-linear-gradient(45deg, #ffef00, #ff3d3c, #5446e6 80%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;*/
 }
 
-a:visited {
+/*a:visited {
   color: white;
   background-color: transparent;
   text-decoration: none;
-}
-
-a:hover {
-  color: black;
-  background-color: white;
-}
+}*/
 
 body {
   height: 5400px;
+  width: 1920px;
   margin: 0;
   padding: 0;
   display: block;
@@ -46,13 +44,26 @@ img{
 }
 
 h1{
-  padding-top: 50px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
 
+p{
+  padding-top: 20px;
+  padding-bottom: 70px;
 }
 
 .buttonMI{
   padding: 10px 20px 10px 20px;
   border: solid #000000 3px;
+}
+
+.buttonBuy{
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 3px;
+  border-radius: 50px;
+  background: red;
+  text-decoration: none;
 }
 
 .social {
@@ -72,7 +83,7 @@ h1{
 .topBar {
   position: fixed;
   width: 100%;
-  height: 50px;
+  height: 70px;
   font-size: 25px;
   font-weight: bold;
   text-align: center;
@@ -88,9 +99,47 @@ h1{
   url("https://raw.githubusercontent.com/Johndyr055/MetaBitsV2/main/images/arcades.png"),
   url("https://raw.githubusercontent.com/Johndyr055/MetaBitsV2/main/images/fondo.png");
   background-position: center, center, center, center, center;
+  background-attachment: scroll;
   background-size: cover;
   animation-duration: 2s;
+  background-color: black;
   animation-name: slidein;
+}
+
+.parrafoI{
+  text-align: left;
+}
+
+.parrafoD{
+  text-align: right;
+}
+
+.riot{
+  width: 300px;
+  height: 600px;
+  float: left;
+  margin-right: 20px;
+}
+
+.archie{
+  width: 300px;
+  height: 600px;
+  float: right;
+  margin-left: 20px;
+}
+
+.topBarMI{
+  padding: 10px;
+}
+
+.topBarMI:hover {
+  color: black;
+  background-color: white;
+}
+
+.buttonMI:hover {
+  color: black;
+  background-color: white;
 }
 
 #s1{
@@ -111,6 +160,10 @@ h1{
 
 #aDonations{
   background-color: blue;
+}
+
+#aToken{
+  background-color: brown;
 }
 
 #aRoadMap{
